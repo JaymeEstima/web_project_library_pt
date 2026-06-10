@@ -354,12 +354,14 @@
 .footer__column_content_hours {
   display: flex;
   flex-direction: column;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -396,10 +398,10 @@
   align-items: center;
   font-size: 16px;
   line-height: 20px;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   width: 16px;
   height: 16px;
 }
